@@ -4,7 +4,7 @@ namespace FlexiSourceIT.Models
 {
     public class RainfallReading
     {
-        public DataSetDateTime DateMeasured { get; set; }
+        public DateTime DateMeasured { get; set; }
         public decimal AmountMeasured { get; set; }
     }
 }

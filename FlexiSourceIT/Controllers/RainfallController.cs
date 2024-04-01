@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FlexiSourceIT.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class RainfallController : ControllerBase
     {
         private readonly IRainfallService _rainfallService;
