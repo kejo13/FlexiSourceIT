@@ -53,6 +53,8 @@ namespace FlexiSourceIT.Services
             {
                 throw new Exception("Failed to desirialized rainfall readings from the API response");
             }
+
+            return readings;
         }
     }
 }
